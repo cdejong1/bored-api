@@ -65,6 +65,7 @@ More detailed API documentation available via OpenAPI/Swagger UI (coming soon).
 
 ## 🏗️ Project Structure
 
+```bash 
 bored-api/
 ├── src/
 │   ├── controllers/
@@ -85,6 +86,7 @@ bored-api/
 ├── package.json
 ├── .gitignore
 └── README.md
+```
 
 ---
 
