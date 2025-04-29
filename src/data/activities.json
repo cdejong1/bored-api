@@ -1,0 +1,17 @@
+[
+    {
+      "activity": "Learn how to bake a loaf of bread from scratch",
+      "type": "indoor",
+      "category": "creative",
+      "cost": "low",
+      "estimated_time": "2-3 hours"
+    },
+    {
+      "activity": "Go for a photography walk",
+      "type": "outdoor",
+      "category": "creative",
+      "cost": "free",
+      "estimated_time": "1-2 hours"
+    }
+  ]
+  
