@@ -53,12 +53,13 @@ npm install --save-dev nodemon
 
 ## 📡 API Endpoints
 
+```bash 
 Method | Endpoint | Description
 GET | /health | Health check to verify server is running.
 GET | /activity | Get a random activity suggestion.
 GET | /activity?type=indoor | Filter activities by type. (Coming in Sprint 1)
 POST | /activity/suggest | Submit a new activity idea. (Coming in Sprint 1)
-
+```
 More detailed API documentation available via OpenAPI/Swagger UI (coming soon).
 
 ---
