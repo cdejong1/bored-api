@@ -48,3 +48,45 @@ npm install
 # (Optional) Install nodemon for auto-reloading during development:
 npm install --save-dev nodemon
 ```
+
+---
+
+## 📡 API Endpoints
+
+Method | Endpoint | Description
+GET | /health | Health check to verify server is running.
+GET | /activity | Get a random activity suggestion.
+GET | /activity?type=indoor | Filter activities by type. (Coming in Sprint 1)
+POST | /activity/suggest | Submit a new activity idea. (Coming in Sprint 1)
+
+More detailed API documentation available via OpenAPI/Swagger UI (coming soon).
+
+---
+
+## 🏗️ Project Structure
+
+bored-api/
+├── src/
+│   ├── controllers/
+│   │   └── activityController.js
+│   ├── routes/
+│   │   └── activityRoutes.js
+│   ├── models/
+│   ├── services/
+│   ├── middleware/
+│   ├── data/
+│   │   └── activities.json
+│   └── app.js
+├── tests/
+│   └── activity.test.js
+├── docs/
+│   └── api-spec.yaml
+├── server.js
+├── package.json
+├── .gitignore
+└── README.md
+
+---
+
+## 📄 License
+This project is licensed under the MIT License.
